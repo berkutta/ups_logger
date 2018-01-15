@@ -1,5 +1,7 @@
 # UPS Logger
 
+![graph example](https://raw.githubusercontent.com/berkutta/ups_logger/master/screenshot.png)
+
 This is a dumb and very bad written Software to get the Voltage from your APC UPS (via apcaccess) and store it together with the date into json files.
 
 Those JSON files are then used to generate a nice graphic. Perfect to see if your Mains Voltage is dipping for any reason. The current implementations does a meassurement every 5s. I honestly have no clue if the APC UPS even updates this value that often
